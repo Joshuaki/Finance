@@ -40,14 +40,14 @@ for stock in my_list:
         pass
 
 
-print(options_stats)
+#print(options_stats)
 
 
 options_stats_df = pd.DataFrame(options_stats)
 options_stats_df = options_stats_df.transpose()
 
 today = date.today()
-options_stats_df.to_excel('options_stats.xlsx', sheet_name=f'options_stats_{today}')
+options_stats_df.to_excel(f'options_stats{today}.xlsx', sheet_name=f'options_stats_{today}')
 
 
 
