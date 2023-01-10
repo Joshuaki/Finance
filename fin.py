@@ -2,6 +2,7 @@ import requests
 import csv
 import options
 import pandas as pd
+from datetime import date
 
 
 API_Key = '6MKN651IJ6G2RXCS'
@@ -45,7 +46,8 @@ print(options_stats)
 options_stats_df = pd.DataFrame(options_stats)
 options_stats_df = options_stats_df.transpose()
 
-options_stats_df.to_excel('options_stats.xlsx', sheet_name="options_stats")
+today = date.today()
+options_stats_df.to_excel('options_stats.xlsx', sheet_name=f'options_stats_{today}')
 
 
 
