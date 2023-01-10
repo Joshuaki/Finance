@@ -42,9 +42,11 @@ def divHistory(stock: str) -> pd.DataFrame():
     return dividends
 
 
+
+
 dividendHistory = divHistory('IBM')
 
-print(dividendHistory)
+
 
 def main():
     pass

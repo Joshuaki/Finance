@@ -43,6 +43,7 @@ print(options_stats)
 
 
 options_stats_df = pd.DataFrame(options_stats)
+options_stats_df = options_stats_df.transpose()
 
 options_stats_df.to_excel('options_stats.xlsx', sheet_name="options_stats")
 
