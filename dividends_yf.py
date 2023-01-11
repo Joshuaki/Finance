@@ -75,12 +75,14 @@ print(CF_share)
 df_CF_share_qtr = pd.DataFrame()
 df_CF_share = pd.DataFrame()
 
-test = ['AAPL', 'IBM']
 
-for item in test:
-    df_CF_share_qtr = pd.concat([df_CF_share_qtr, CFPerShare_qtr(item)])
 
-print(df_CF_share_qtr)
+for stock in my_list:
+    df_CF_share_qtr = pd.concat([df_CF_share_qtr, CFPerShare_qtr(stock)])
+
+df_CF_share_qtr.to_excel('CF_Per_Share_qtr.xlsx', sheet_name='CF_Per_Share_qtr')
+
+#print(df_CF_share_qtr)
 
 def main():
     pass
