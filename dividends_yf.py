@@ -2,6 +2,9 @@ import yfinance as yf
 import pandas as pd
 import requests
 import csv
+import time
+
+start = time.time()
 
 API_Key = '6MKN651IJ6G2RXCS'
 
@@ -77,10 +80,20 @@ df_CF_share = pd.DataFrame()
 
 
 
-for stock in my_list:
-    df_CF_share_qtr = pd.concat([df_CF_share_qtr, CFPerShare_qtr(stock)])
+for stock in my_list[1:]:
+    
+    try:
+        df_CF_share_qtr = pd.concat([df_CF_share_qtr, CFPerShare_qtr(stock[0])])
+        df_CF_share = pd.concat([df_CF_share, CFPerShare(stock[0])])
+    except KeyError:
+        pass
 
 df_CF_share_qtr.to_excel('CF_Per_Share_qtr.xlsx', sheet_name='CF_Per_Share_qtr')
+df_CF_share.toexcel('CF_Per_Share.xlsx', sheet_name='CF_Per_Share')
+
+end = time.time()
+
+print(f'Seconds: {end - start}')
 
 #print(df_CF_share_qtr)
 
