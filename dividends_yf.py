@@ -21,7 +21,7 @@ with requests.Session() as s:
     my_list = list(cr)
 
 
-stock = 'IBM'
+stock = 'AAPL'
 
 ticker = yf.Ticker(stock)
 
@@ -87,11 +87,13 @@ for stock in my_list[1:]:
     try:
         df_CF_share_qtr = pd.concat([df_CF_share_qtr, CFPerShare_qtr(stock[0])])
         df_CF_share = pd.concat([df_CF_share, CFPerShare(stock[0])])
-    except (KeyError, requests.exceptions.Timeout):
+        df_CF_share_qtr.to_excel('CF_Per_Share_qtr.xlsx', sheet_name='CF_Per_Share_qtr')
+        df_CF_share.to_excel('CF_Per_Share.xlsx', sheet_name='CF_Per_Share')
+    except (KeyError, TypeError, requests.exceptions.Timeout):
         pass
 
 df_CF_share_qtr.to_excel('CF_Per_Share_qtr.xlsx', sheet_name='CF_Per_Share_qtr')
-df_CF_share.toexcel('CF_Per_Share.xlsx', sheet_name='CF_Per_Share')
+df_CF_share.to_excel('CF_Per_Share.xlsx', sheet_name='CF_Per_Share')
 
 end = time.time()
 
