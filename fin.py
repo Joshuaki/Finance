@@ -2,8 +2,13 @@ import requests
 import csv
 import options
 import pandas as pd
-from datetime import date
+import datetime 
+import time
 
+#Starting timestamp to check how long script takes
+start = time.time()
+
+print(datetime.datetime.now())
 
 API_Key = '6MKN651IJ6G2RXCS'
 
@@ -46,12 +51,20 @@ for stock in my_list:
 options_stats_df = pd.DataFrame(options_stats)
 options_stats_df = options_stats_df.transpose()
 
-today = date.today()
+today = datetime.date.today()
 options_stats_df.to_excel(f'options_stats{today}.xlsx', sheet_name=f'options_stats_{today}')
 
+end = time.time()
+
+print(f'Seconds: {end - start}')
 
 
 
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
 
 
 

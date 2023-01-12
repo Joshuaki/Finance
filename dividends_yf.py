@@ -3,8 +3,10 @@ import pandas as pd
 import requests
 import csv
 import time
+import datetime
 
 start = time.time()
+print(datetime.datetime.now())
 
 API_Key = '6MKN651IJ6G2RXCS'
 
@@ -85,7 +87,7 @@ for stock in my_list[1:]:
     try:
         df_CF_share_qtr = pd.concat([df_CF_share_qtr, CFPerShare_qtr(stock[0])])
         df_CF_share = pd.concat([df_CF_share, CFPerShare(stock[0])])
-    except KeyError:
+    except (KeyError, requests.exceptions.Timeout):
         pass
 
 df_CF_share_qtr.to_excel('CF_Per_Share_qtr.xlsx', sheet_name='CF_Per_Share_qtr')
