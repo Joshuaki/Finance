@@ -223,7 +223,6 @@ AEO,American Eagle Outfitters Inc,NYSE,Stock,1994-04-14,null,Active
 AEP,American Electric Power Company Inc,NASDAQ,Stock,1970-01-02,null,Active
 AEPPZ,American Electric Power Company Inc,NASDAQ,Stock,2020-10-01,null,Active
 AER,Aercap Holdings N.V.,NYSE,Stock,2006-11-21,null,Active
-AERC,AeroClean Technologies Inc,NASDAQ,Stock,2021-11-24,null,Active
 AES,AES Corp,NYSE,Stock,1991-06-26,null,Active
 AESC,AES Corp,NYSE,Stock,2021-03-05,null,Active
 AESR,Anfield U.S. Equity Sector Rotation ETF,BATS,ETF,2019-12-17,null,Active
@@ -2110,6 +2109,7 @@ CLNE,Clean Energy Fuels Corp,NASDAQ,Stock,2007-05-25,null,Active
 CLNN,Clene Inc,NASDAQ,Stock,2020-12-31,null,Active
 CLNNW,Clene Inc - Warrants (30/12/2025),NASDAQ,Stock,2020-12-31,null,Active
 CLNR,IQ CLEANER TRANSPORT ETF ,NYSE ARCA,ETF,2021-10-21,null,Active
+CLOA,BlackRock AAA CLO ETF,NASDAQ,ETF,2023-01-12,null,Active
 CLOE,Clover Leaf Capital Corp - Class A,NASDAQ,Stock,2021-09-10,null,Active
 CLOER,Clover Leaf Capital Corp,NASDAQ,Stock,2021-09-10,null,Active
 CLOEU,Clover Leaf Capital Corp - Units (1 Ord Share Class A & 1 Right),NASDAQ,Stock,2021-07-20,null,Active
@@ -2568,7 +2568,7 @@ CXW,CoreCivic Inc,NYSE,Stock,1997-07-15,null,Active
 CYA,Simplify Tail Risk Strategy ETF,NYSE ARCA,ETF,2021-09-14,null,Active
 CYAD,Celyad Oncology,NASDAQ,Stock,2015-06-19,null,Active
 CYAN,Cyanotech Corp,NASDAQ,Stock,1993-06-22,null,Active
-CYB,WISDOMTREE CHINESE YUAN STRATEGY FUND N/A,NYSE ARCA,ETF,2008-05-22,null,Active
+CYB,WisdomTree Chinese Yuan Strategy Fund,NYSE ARCA,ETF,2008-05-22,null,Active
 CYBN,Cybin Inc,NYSE MKT,Stock,2019-09-13,null,Active
 CYBR,CyberArk Software Ltd,NASDAQ,Stock,2014-09-24,null,Active
 CYCC,Cyclacel Pharmaceuticals Inc,NASDAQ,Stock,2004-05-05,null,Active
@@ -3244,7 +3244,6 @@ EIX,Edison International,NYSE,Stock,1980-01-02,null,Active
 EJAN,Innovator Emerging Markets Power Buffer ETF January,NYSE ARCA,ETF,2020-01-02,null,Active
 EJH,E-Home Household Service Holdings Ltd,NASDAQ,Stock,2021-05-14,null,Active
 EJUL,Innovator Emerging Markets Power Buffer ETF July,NYSE ARCA,ETF,2019-07-01,null,Active
-EKAR,Capital Link Gbl Green Energy Trans & Tech Leaders ETF,NYSE ARCA,ETF,2018-02-13,null,Active
 EKG,First Trust Nasdaq Lux Digital Health Solutions ETF,NASDAQ,ETF,2022-03-23,null,Active
 EKSO,Ekso Bionics Holdings Inc,NASDAQ,Stock,2014-01-16,null,Active
 EL,Estee Lauder Cos. Inc - Class A,NYSE,Stock,1995-11-17,null,Active
@@ -3701,7 +3700,7 @@ FCAX,Fortress Capital Acquisition Corp - Class A,NYSE,Stock,2021-03-05,null,Acti
 FCAX-U,Fortress Capital Acquisition Corp - Units (1 Ord Class A & 1/5 War),NYSE,Stock,2021-01-13,null,Active
 FCBC,First Community Bankshares Inc,NASDAQ,Stock,1997-05-09,null,Active
 FCCO,First Community Corp,NASDAQ,Stock,1999-03-09,null,Active
-FCEF,FIRST TRUST INCOME OPPORTUNITIES ETF ,NASDAQ,ETF,2016-09-29,null,Active
+FCEF,First Trust Income Opportunities ETF,NASDAQ,ETF,2016-09-29,null,Active
 FCEL,Fuelcell Energy Inc,NASDAQ,Stock,1997-02-27,null,Active
 FCF,First Commonwealth Financial Corp,NYSE,Stock,1992-06-10,null,Active
 FCFS,FirstCash Holdings Inc,NASDAQ,Stock,1992-08-17,null,Active
@@ -5118,7 +5117,7 @@ HTOO,Fusion Fuel Green Ltd - Class A,NASDAQ,Stock,2020-12-10,null,Active
 HTOOW,Fusion Fuel Green Ltd - Warrants (01/01/2023),NASDAQ,Stock,2020-12-10,null,Active
 HTPA-U,Highland Transcend Partners I Corp Units each consisting of one Class A ordinary share and onethird of one redeemable warrant,NYSE,Stock,2020-12-03,null,Active
 HTRB,Hartford Total Return Bond ETF,NYSE ARCA,ETF,2017-09-28,null,Active
-HTUS,HULL TACTICAL US ETF ,NYSE ARCA,ETF,2015-06-25,null,Active
+HTUS,Hull Tactical US ETF,NYSE ARCA,ETF,2015-06-25,null,Active
 HTY,John Hancock Tax-Advantaged Global Shareholder Yield Fund,NYSE,ETF,2007-09-26,null,Active
 HTZ,Hertz Global Holdings Inc (New),NASDAQ,Stock,2021-07-01,null,Active
 HTZWW,Hertz Global Holdings Inc - Warrants (30/06/2051),NASDAQ,Stock,2021-07-01,null,Active
@@ -6103,6 +6102,7 @@ KLAC,KLA Corp,NASDAQ,Stock,1990-03-26,null,Active
 KLCD,KFA Large Cap Quality Dividend Index ETF,NYSE ARCA,ETF,2019-06-12,null,Active
 KLDW,Knowledge Leaders Developed World ETF,NYSE ARCA,ETF,2015-07-09,null,Active
 KLIC,Kulicke & Soffa Industries Inc,NASDAQ,Stock,1990-03-26,null,Active
+KLIP,KraneShares China Internet and Covered Call Strategy ETF,NYSE ARCA,ETF,2023-01-12,null,Active
 KLNE,Direxion Daily Global Clean Energy Bull 2X Shares,NYSE ARCA,ETF,2021-07-29,null,Active
 KLR,Kaleyra Inc,NYSE,Stock,2018-01-17,null,Active
 KLR-WS,Kaleyra Inc - Warrants (06/03/2025),NYSE,Stock,2018-01-17,null,Active
@@ -6871,6 +6871,7 @@ MKL,Markel Corp,NYSE,Stock,1990-01-02,null,Active
 MKSI,MKS Instruments Inc,NASDAQ,Stock,1999-03-30,null,Active
 MKTW,Marketwise Inc - Class A,NASDAQ,Stock,2020-09-14,null,Active
 MKTX,MarketAxess Holdings Inc,NASDAQ,Stock,2004-11-05,null,Active
+MKUL,Molekule Group Inc,NASDAQ,Stock,2021-11-24,null,Active
 ML,MoneyLion Inc - Class A,NYSE,Stock,2020-08-14,null,Active
 MLAB,Mesa Laboratories Inc,NASDAQ,Stock,1995-01-25,null,Active
 MLAC,Malacca Straits Acquisition Co Ltd - Class A,NASDAQ,Stock,2020-08-14,null,Active
@@ -8230,7 +8231,7 @@ PIAI-WS,Prime Impact Acquisition I - Warrants (01/10/2030),NYSE,Stock,2020-11-02
 PICB,Invesco International Corporate Bond ETF,NYSE ARCA,ETF,2010-06-03,null,Active
 PICC,Pivotal Investment Corp III - Class A,NYSE,Stock,2021-04-01,null,Active
 PICC-U,Pivotal Investment Corp III - Units (1 Ord Share Class A & 1/5 War),NYSE,Stock,2021-02-09,null,Active
-PICK,ISHARES MSCI GLOBAL METALS & MINING PRODUCERS ETF ,BATS,ETF,2012-02-02,null,Active
+PICK,iShares MSCI Global Metals & Mining Producers ETF,BATS,ETF,2012-02-02,null,Active
 PID,Invesco International Dividend Achievers ETF,NASDAQ,ETF,2005-09-15,null,Active
 PIE,Invesco DWA Emerging Markets Momentum ETF,NASDAQ,ETF,2007-12-28,null,Active
 PIFI,CLEARSHARES PITON INTERMEDIATE FIXED INCOME ETF ,NYSE ARCA,ETF,2020-10-02,null,Active
@@ -8665,7 +8666,7 @@ PZZA,Papa John`s International Inc,NASDAQ,Stock,1993-06-08,null,Active
 QABA,First Trust NASDAQ ABA Community Bank Index Fund,NASDAQ,ETF,2009-07-01,null,Active
 QAI,IQ Hedge Multi-Strategy Tracker ETF,NYSE ARCA,ETF,2009-03-25,null,Active
 QARP,XTRACKERS RUSSELL 1000 US QUALITY AT A REASONABLE PRICE ETF ,NYSE ARCA,ETF,2018-04-05,null,Active
-QAT,ISHARES MSCI QATAR ETF ,NASDAQ,ETF,2014-05-01,null,Active
+QAT,iShares MSCI Qatar ETF,NASDAQ,ETF,2014-05-01,null,Active
 QBTS,D-Wave Quantum Inc,NYSE,Stock,2022-08-08,null,Active
 QBTS-WS,D-Wave Quantum Inc - Warrants (01/01/9999),NYSE,Stock,2022-08-08,null,Active
 QCLN,First Trust Nasdaq Clean Edge Green Energy Index Fund,NASDAQ,ETF,2007-02-14,null,Active
@@ -9145,6 +9146,7 @@ RRX,Regal Rexnord Corp,NYSE,Stock,1983-12-01,null,Active
 RS,Reliance Steel & Aluminum Company,NYSE,Stock,1994-09-16,null,Active
 RSEE,Rareview Systematic Equity ETF,BATS,ETF,2022-01-21,null,Active
 RSF,RiverNorth Capital and Income Fund,NYSE,ETF,2016-09-22,null,Active
+RSF-R,RiverNorth Capital and Income Fund Rights expiring January 27 2023 Rights,NYSE,Stock,2023-01-12,null,Active
 RSF-R-W,RiverNorth Capital and Income Fund Rights expiring January 27 2023 Rights when issued,NYSE,Stock,2023-01-05,null,Active
 RSG,Republic Services Inc,NYSE,Stock,1998-07-01,null,Active
 RSI,Rush Street Interactive Inc - Class A,NYSE,Stock,2020-04-23,null,Active
@@ -9993,7 +9995,6 @@ SSY,Sunlink Health Systems Inc,NYSE MKT,Stock,1990-03-26,null,Active
 SSYS,Stratasys Ltd,NASDAQ,Stock,1994-10-21,null,Active
 ST,Sensata Technologies Holding Plc,NYSE,Stock,2010-03-11,null,Active
 STAA,Staar Surgical Company,NASDAQ,Stock,1992-03-02,null,Active
-STAB,Statera BioPharma Inc,NASDAQ,Stock,2006-07-25,null,Active
 STAF,Staffing 360 Solutions Inc,NASDAQ,Stock,2013-02-15,null,Active
 STAG,STAG Industrial Inc,NYSE,Stock,2011-04-15,null,Active
 STAR,iStar Inc,NYSE,Stock,1989-11-16,null,Active
@@ -10713,7 +10714,7 @@ UAMY,United States Antimony Corp,NYSE MKT,Stock,2000-02-24,null,Active
 UAN,CVR Partners LP,NYSE,Stock,2011-04-08,null,Active
 UAPR,Innovator U.S. Equity Ultra Buffer ETF - April,BATS,ETF,2019-04-01,null,Active
 UAUG,Innovator U.S. Equity Ultra Buffer ETF - August,BATS,ETF,2019-08-01,null,Active
-UAV,ADVISORSHARES DRONE TECHNOLOGY ETF ,NYSE ARCA,ETF,2022-04-27,null,Active
+UAV,AdvisorShares Drone Technology ETF,NYSE ARCA,ETF,2022-04-27,null,Active
 UAVS,AgEagle Aerial Systems Inc,NYSE MKT,Stock,2018-03-26,null,Active
 UBA,Urstadt Biddle Properties Inc - Class A,NYSE,Stock,1998-08-17,null,Active
 UBCB,UBC ALGORITHMIC FUNDAMENTALS ETF ,NYSE ARCA,ETF,2021-12-16,null,Active
@@ -10870,7 +10871,6 @@ USEA,United Maritime Corp,NASDAQ,Stock,2022-07-06,null,Active
 USEG,U.S. Energy Corp,NASDAQ,Stock,1990-03-26,null,Active
 USEP,Innovator U.S. Equity Ultra Buffer ETF - September,BATS,ETF,2019-09-03,null,Active
 USEQ,INVESCO RUSSELL 1000 ENHANCED EQUAL WEIGHT ETF ,BATS,ETF,2017-08-24,null,Active
-USER,UserTesting Inc,NYSE,Stock,2021-11-17,null,Active
 USFD,US Foods Holding Corp,NYSE,Stock,2016-05-26,null,Active
 USFR,WisdomTree Floating Rate Treasury Fund,NYSE ARCA,ETF,2014-02-04,null,Active
 USHY,iShares Broad USD High Yield Corporate Bond ETF,BATS,ETF,2017-10-26,null,Active

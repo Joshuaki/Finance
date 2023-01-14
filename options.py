@@ -29,7 +29,7 @@ def get_implied_volatility(ticker: str) -> pd.DataFrame():
 def iv_stats(ticker: str) -> dict:
 
     url = f'https://volafy.net/equity/{ticker}'
-    r = requests.get(url)
+    r = requests.get(url, verify=False)
     html = r.text
     soup = BeautifulSoup(html, 'html.parser')
     stats =  {}

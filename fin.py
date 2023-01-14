@@ -17,7 +17,7 @@ CSV_URL = 'https://www.alphavantage.co/query?function=LISTING_STATUS&apikey={API
 
 with requests.Session() as s:
     
-    download = s.get(CSV_URL)
+    download = s.get(CSV_URL, verify=False)
     decoded_content = download.content.decode('utf-8')
     cr = csv.reader(decoded_content.splitlines(), delimiter=',')
     my_list = list(cr)
